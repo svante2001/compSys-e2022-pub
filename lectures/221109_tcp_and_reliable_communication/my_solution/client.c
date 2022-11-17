@@ -17,7 +17,7 @@ void* handler() {
 }
 
 void* timer() {
-  sleep(2);
+  sleep(1);
   printf("Timed out.\n");
   pthread_cancel(handler_thread);
   return NULL;
