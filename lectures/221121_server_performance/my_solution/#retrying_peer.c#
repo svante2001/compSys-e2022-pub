@@ -1,0 +1,10 @@
+
+
+int main() {
+  char* client_ip   = "0.0.0.0";
+  char* client_port = "12345";
+  char* server_ip   = "0.0.0.0";
+  char* server_port = "23456";
+
+  char* message = ""
+}
